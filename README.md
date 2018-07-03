@@ -7,7 +7,7 @@ This setup will detect all entry points automatically from **'src/js'** folder. 
 
 You do not need to access any core setting file if you neeed to change any configuration. 
 
-All options has been enlisted to **config/public.options.js** file. Check this file. All options are quite self explanatory and has comments with all.
+All options has been enlisted to **[config/public.options.js](config/public.options.js)** file. Check this file. All options are quite self explanatory and has comments with all.
 
 jQuery is an external module. We have used CDN version of it and we pull that into bottom of html code. Internal modules can access this module and some of internal modules can use this as a dependancy.
 
