@@ -11,9 +11,9 @@ All options has been enlisted to **[config/public.options.js](config/public.opti
 
 **jQuery** is an external module. We have used CDN version of it and we pull that into bottom of html code. Internal modules can access this module as a dependancy and hence its globally available.
 
-`npm run start` will compile in memory and will create a server and open index.html file to the browser.
+**`npm run start`** will compile in memory and will create a server and open index.html file to the browser.
 
-`npm run build` will compile and create 'dist/' folder.
+**`npm run build`** will compile and create 'dist/' folder.
 
 If you dont want to compile all of the entry points and only want to work on particular one or more entry points, you can pass those entry points name into settings `entries:[]` files separated with ",". It will compile only these entry points and required assets.
 
