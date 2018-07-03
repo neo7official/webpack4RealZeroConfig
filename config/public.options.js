@@ -20,7 +20,7 @@ Public.options = {
 		background: '#fff', //background color of favicon.
 	},
 	htmlMinify:{
-		// There are not any default value set for these options. You have to put some bulean value to it.
+		// There are not any default value set for these options. You have to put some bulean value to it. If you want to minify html output then you should swap settings for first two options here.
 	   	collapseWhitespace:false, //remove extra white space.
 	   	preserveLineBreaks:true, //remove line breaks.
 	   	removeAttributeQuotes:false, //remove attribute quotes ("").
