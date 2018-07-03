@@ -7,7 +7,7 @@ This setup will detect all entry points automatically from **'src/js'** folder. 
 
 You do not need to access any core setting file if you neeed to change any configuration. 
 
-All options has been enlisted to **config/public.options.js** file. Check this file. All the options are quite self explanatory and has comments with all.
+All options has been enlisted to **config/public.options.js** file. Check this file. All options are quite self explanatory and has comments with all.
 
 
 
