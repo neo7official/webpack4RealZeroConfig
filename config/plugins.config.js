@@ -125,7 +125,7 @@ Plugins.push(
 );
 	
 Optimization.splitChunks={
-	name:Public.options.splitChunks.name.match(/\w+/g)?Public.options.splitChunks.name:true,
+	name:Public.options.splitChunks.name.match(/\w+/g)?Public.options.splitChunks.name:false,
 	chunks:"all",
 };
     
