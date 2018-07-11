@@ -74,6 +74,7 @@
     "bootstrap-select": "^1.13.1",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
     "fast-sass-loader": "^1.4.5",
@@ -105,8 +106,8 @@
     "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
-    "start": "set NODE_ENV=development && webpack-dev-server --config=config/webpack.main.config.js",
-    "build": "set NODE_ENV=production && webpack -p --env.NODE_ENV=production --config=config/webpack.main.config.js"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config=config/webpack.main.config.js",
+    "build": "cross-env NODE_ENV=production webpack -p --env.NODE_ENV=production --config=config/webpack.main.config.js"
   },
   "keywords": [],
   "author": "",
