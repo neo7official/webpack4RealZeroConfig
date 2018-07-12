@@ -47,6 +47,7 @@ Config.devtool = Public.options.sourceMap?'source-map':false;
 
 Config.devServer = {
 	overlay: true,
+	historyApiFallback: true,
 	open:Public.options.server.open?true:false,
 	port:Public.options.server.port && Public.options.server.port.toString().match(/\d+/).length?Public.options.server.port:8000,
 	openPage:Public.options.entries.length?`${Public.options.entries[0]}.html`:null,
