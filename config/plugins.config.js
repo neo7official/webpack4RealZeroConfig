@@ -113,7 +113,7 @@ Plugins.push(
 		}else{
 			return ()=>{};
 		}
-	},
+	}(),
 	function(){
 		/*if(Public.options.sourceMap){
 			const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
