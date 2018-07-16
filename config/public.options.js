@@ -34,8 +34,8 @@ Public.options = {
 	customAttributes:[":attributeName",":data-attributeName", "tagName:attributeName"], //this is how you should pass any custom attributes which has image / file reference. Default setting is (["img:src", "image:href", ":data-src", "data-img", "data-image", "audio:src", "video:src", "source:src", "video:poster"])
 	copyPaste:[
 		{
-			from:"src/js/vendor/modernizr-custom.js", //file or folder path to copy
-			to:"dist/js/vendor/" //file or folder path to paste
+			from:"", //file or folder path to copy ex. src/js/vendor/modernizr-custom.js
+			to:"" //file or folder path to paste ex. dist/js/vendor/
 		}
 	],
 	server:{
